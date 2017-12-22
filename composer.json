@@ -1,0 +1,36 @@
+{
+  "name": "nemesisat/boutique1",
+  "type": "magento-module",
+  "license": "OSL-3.0",
+  "homepage": "https://github.com/nemesisat/Boutique1",
+  "description": "This Repository for Test @Boutique 1",
+  "authors": [
+    {
+      "name": "Adeel Tahir",
+      "email": "adeel.taher@gmail.com"
+    }
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra": {
+    "map": [
+      [
+        "app/code/community/RedboxDigital/Linkedin",
+        "app/code/community/RedboxDigital/Linkedin"
+      ],
+      [
+        "app/etc/modules/RedboxDigital_Linkedin.xml",
+        "app/etc/modules/RedboxDigital_Linkedin.xml"
+      ],
+      [
+        "app/design/frontend/base/default/layout/redboxdigital_linkedin.xml",
+        "app/design/frontend/base/default/layout/redboxdigital_linkedin.xml"
+      ],
+      [
+        "app/design/frontend/base/default/template/redboxdigital/",
+        "app/design/frontend/base/default/template/redboxdigital/"
+      ]
+    ]
+  }
+}
